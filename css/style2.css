@@ -1,0 +1,55 @@
+.custom-bg {
+  background-color: #2bb6ad;
+  color: #fff; /* Agar teks lebih mudah dibaca */
+}
+
+.custom-bg:hover {
+  background-color: #249c93; /* Warna sedikit lebih gelap saat hover */
+}
+
+/* adminManageVehicle */
+/* Warna latar belakang untuk setiap status */
+.breadcrumb {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+
+.breadcrumb .breadcrumb-item.active {
+  color: #007bff;
+}
+
+.breadcrumb .breadcrumb-item {
+  color: #000;
+}
+
+.breadcrumb .breadcrumb-item:not(.active) {
+  color: #000;
+}
+.vehicle-header {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 10px;
+  width: 100%;
+  background-color: #2c3e50;
+  color: white;
+  margin-bottom: 15px;
+}
+/* CSS untuk footer */
+.footer {
+  width: 100%;
+  background-color: #2bb6ad;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  position: relative bottom;
+
+  bottom: 0;
+  left: 0;
+  z-index: 1000; /* Pastikan z-index lebih tinggi dari konten utama */
+}
+.footer-text {
+  margin-left: 250px;
+}
